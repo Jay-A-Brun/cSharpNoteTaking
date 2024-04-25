@@ -1,0 +1,15 @@
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\bin\Debug\net8.0\Encyclopedia.exe
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\bin\Debug\net8.0\Encyclopedia.deps.json
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\bin\Debug\net8.0\Encyclopedia.runtimeconfig.json
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\bin\Debug\net8.0\Encyclopedia.dll
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\bin\Debug\net8.0\Encyclopedia.pdb
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\obj\Debug\net8.0\Encyclopedia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\obj\Debug\net8.0\Encyclopedia.AssemblyInfoInputs.cache
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\obj\Debug\net8.0\Encyclopedia.AssemblyInfo.cs
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\obj\Debug\net8.0\Encyclopedia.csproj.CoreCompileInputs.cache
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\obj\Debug\net8.0\Encyclopedia.sourcelink.json
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\obj\Debug\net8.0\Encyclopedia.dll
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\obj\Debug\net8.0\refint\Encyclopedia.dll
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\obj\Debug\net8.0\Encyclopedia.pdb
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\obj\Debug\net8.0\Encyclopedia.genruntimeconfig.cache
+C:\Users\jayde\OneDrive\Documents\Coding\Personal\Encyclopedia\obj\Debug\net8.0\ref\Encyclopedia.dll
