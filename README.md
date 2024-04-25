@@ -1,1 +1,2 @@
-# cSharp-Note-Taking
+# cSharp-Note-Taking.
+My notes :D
