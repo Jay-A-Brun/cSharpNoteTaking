@@ -49,6 +49,7 @@ General Notes to keep handy:
     | 11.\? = A literal question mark 
  */
 
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -81,7 +82,7 @@ namespace Encyclopedia
             // > Studying the Program, rather than looking for results and writing it
 
 
-            Console.WriteLine("\t Write Line Demonstration");
+            Console.WriteLine("\t\n Write Line Demonstration\n");
             Console.WriteLine("Hello World");
             /* 
              - Console is the class we are referring to. It is able to read or write data to and from the Console
@@ -178,7 +179,7 @@ namespace Encyclopedia
 
             //NON-THEORY
 
-            Console.WriteLine("\n\t Integer Explanations");
+            Console.WriteLine("\n\t Integer Explanations\n");
 
             byte i = 2;
             int j = 10;
@@ -197,7 +198,7 @@ namespace Encyclopedia
             Console.WriteLine(m);
             Console.WriteLine(n);
 
-            Console.WriteLine("\n\t Min and Max Values");
+            Console.WriteLine("\n\t Min and Max Values\n");
             Console.WriteLine($"{0}, {1}", byte.MinValue, byte.MaxValue); // This is an example of STRING INTERPOLATION. It expresses an empty value, that is filled by the followed up var
                                                                           // String interpolation always begins with a dollar sign
                                                                           // Another way to do this, is by replacing the {0} with a string literal, which could look like "Console.WriteLine($"{byte.MinValue}, {byte.MaxValue}";"
@@ -257,7 +258,7 @@ namespace Encyclopedia
             // The Conert Class contains methods such as, {ToByte(), ToInt16(), ToInt32(), ToInt64(), ect}
 
             //Another interesting way to use the types is something like:
-            Console.WriteLine("\n\t Convert Class and Type Explanation");
+            Console.WriteLine("\n\t Convert Class and Type Explanation\n");
             Console.WriteLine(x.GetType);
 
             //This will now output the type that s is, in this case, System.String
@@ -317,7 +318,7 @@ namespace Encyclopedia
 
 
             // CONSOLE METHOD USES (PRIMARY USEFUL ONES)
-            Console.WriteLine("\n\t Console Method Uses");
+            Console.WriteLine("\n\t Console Method Uses\n");
             Console.WriteLine(); // Writes a string literal, on a new line
             Console.Write(""); // Writes a string literal on the already existing line of when its called
             Console.WriteLine("Read Key");
@@ -327,7 +328,7 @@ namespace Encyclopedia
 
 
             // USER INPUT
-            Console.WriteLine("\n\t User Input Demonstration");
+            Console.WriteLine("\n\t User Input Demonstration\n");
             Console.WriteLine("Write Sum");
             string name = Console.ReadLine(); // Self Explanatory
 
@@ -366,7 +367,7 @@ namespace Encyclopedia
 
             // MATHEMATICAL EXERCISE 
             // FINDING THE HYPOTENUSE AND ANGLE OF A RIGHT TRIANGLE
-            Console.WriteLine("\n\t FINDING THE HYPOTENUSE AND ANGLE OF A RIGHT TRIANGLE");
+            Console.WriteLine("\n\t FINDING THE HYPOTENUSE AND ANGLE OF A RIGHT TRIANGLE\n");
             double aThree = 5; // One Side
             double bThree = 7; // Another Side
 
@@ -387,6 +388,7 @@ namespace Encyclopedia
 
 
             // STRING METHOD
+            Console.WriteLine("\n\t The String Method \n");
 
             string aFour = "John Doe";
 
@@ -404,11 +406,47 @@ namespace Encyclopedia
 
             string fFour = aFour.Substring(0, 4); // This will now seperate "John Doe"'s First name from his full name and assign it to 'fFour'
 
+            // Other Parts of the String Method:
+
+            string randString = "This is a string";
+            Console.WriteLine("String Length is : {0}", randString.Length); // Displays Length
+
+            Console.WriteLine("String Contains is : {0}", randString.Contains("is")); // Will return a bool value, if it contains it
+
+            Console.WriteLine("The Index of is : {0}", randString.IndexOf("is")); // Tells where is, is located in the sentence
+
+            Console.WriteLine("Remove String : {0}", randString.Remove(10, 6));
+
+            Console.WriteLine("Insert String is : {0}", randString.Insert(10, "Short"));
+
+            Console.WriteLine("Replace String is : {0}", randString.Replace("string", "sentence"));
+
+            Console.WriteLine("Compare Strings A to B : {0}", String.Compare("A", "B", StringComparison.OrdinalIgnoreCase));
+            // ^^ That will output a value of how far the first letter of a string is from another string's first letter. In this case, it will output -1
+            // This is because:
+            //Compare Strings and ignore case:
+            // < 0 : str1 preceeds str2
+            //  = : Zero
+            // > 0 : str2 preceeds str1
+
+            // The Ignore case part, simply turns the string into a binary value, and compares them numerically
+
+            Console.WriteLine("A = a : {0}", string.Equals("A", "a", StringComparison.OrdinalIgnoreCase));
+
+            Console.WriteLine("Pad Left", randString.PadLeft(20, '.'));
+
+            Console.WriteLine("Pad Right", randString.PadRight(20, '.'));
+
+            Console.WriteLine("Pad Left", randString.Trim()); // Trimms away any Empty space
+
+            string newString = String.Format("{0} saw a {1} {2} in the {3}", "Paul", "Rabbit", "Eating", "Feilds"); // Just a longer way of creating a string
+
+
 
 
             // IF STATEMENTS ( Pretty Self Explanatory)
 
-            Console.WriteLine("\n\t If Statements");
+            Console.WriteLine("\n\t If Statements\n");
 
             Console.WriteLine("Please enter your age: ");
             int age = Convert.ToInt32(Console.ReadLine());
@@ -432,7 +470,7 @@ namespace Encyclopedia
 
             // SWITCHES = An efficient alternative to writing loads of else if statements
 
-            Console.WriteLine("\n\t Switches");
+            Console.WriteLine("\n\t Switches\n");
 
             Console.WriteLine("What Day is it today?");
             string day = Console.ReadLine();
@@ -476,7 +514,7 @@ namespace Encyclopedia
             //While loop - Repeats code WHILE a condition is true
 
 
-            Console.WriteLine("\n\t While Loops");
+            Console.WriteLine("\n\t While Loops\n");
 
             Console.WriteLine("Enter string here");
             string aFive = Console.ReadLine();
@@ -489,7 +527,7 @@ namespace Encyclopedia
 
             // For Loop - Repeat code for an amount of time determined by the parameter
 
-            Console.WriteLine("\n\t For Loops ");
+            Console.WriteLine("\n\t For Loops\n");
 
             for (int bFive = 10; bFive >= 0; bFive--) // First, Initialize an index - how many times you want something to run (bFive), determine for how long. Then 
                                                       // determine the increment or decrement for the variable, every time the loop runs
@@ -500,7 +538,7 @@ namespace Encyclopedia
             //NESTED LOOPS - Loop in a loop
             // Examples :D
 
-            Console.WriteLine("\n\t Nested Loops");
+            Console.WriteLine("\n\t Nested Loops\n");
 
             Console.WriteLine("Rows?");
             int rows = Convert.ToInt32(Console.ReadLine());
@@ -524,7 +562,7 @@ namespace Encyclopedia
 
             // EXAMPLE ROCK PAPER SCISSORS GAME
 
-            Console.WriteLine("\n\t  ROCK PAPER SCISSORS GAME");
+            Console.WriteLine("\n\t  ROCK PAPER SCISSORS GAME\n");
 
             // Initialize a Random object to generate random numbers
             Random random = new Random();
@@ -639,7 +677,7 @@ namespace Encyclopedia
             Console.WriteLine("Thanks for playing!");
 
             //Arrays - variable that can store several variables
-            Console.WriteLine("\n\t Arrays ");
+            Console.WriteLine("\n\t Arrays\n");
 
             string[] cars = { "BMW", "Mustang", "Corvette" };
 
@@ -655,6 +693,11 @@ namespace Encyclopedia
             }
 
             string[] otherCars = new string[3]; // This initializes an array which can hold 3 values within it, without declaring values immediately
+
+            // Another kind of array exists, allowing for differet data types:
+
+            object[] objectArray = { "Paul", 'A', 75, 3.14 }; // This is a general object array. Which due to 'Polymporphism', all data types technically are.
+
 
             //For Each Loops - a simpler way to iterate over an array, but less flexible
             Console.WriteLine("\n\t Foreach Loops ");
@@ -1045,6 +1088,8 @@ namespace Encyclopedia
             Console.WriteLine($"{mainThread.Name} is complete!");
 
 
+
+
             Console.ReadKey();
 
         }
@@ -1382,4 +1427,3 @@ namespace Encyclopedia
         Pluto = 1188
     }
 }
-
